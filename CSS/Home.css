@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+html{
+    background-color: azure;
+}
+
+body{
+    background-color: aliceblue;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.MainContent {
+    padding: 0px 5px 10px 5px
+}
+
+.navigation {
+    background-color: cornflowerblue;
+    color: floralwhite;
+}
+
+.navigation a:link{
+    color: darkblue;
+}
+
+.navigation a:visited{
+    color: crimson;
+}
