@@ -1,29 +1,42 @@
 @charset "ISO-8859-1";
 
-html{
-    background-color: azure;
+html {
+    background-color: aliceblue;
 }
 
-body{
-    background-color: aliceblue;
-    width: auto;
+body {
+    
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
-    
-}
-.MainContent {
-    padding: 0px 5px 10px 5px
+    display: table;
 }
 
-.navigation {
-    background-color: cornflowerblue;
-    color: floralwhite;
+.Navigation {
+    background-color: dimgrey;
+    color: gold;
 }
 
-.navigation a:link{
+.Navigation a:link{
     color: darkblue;
 }
 
-.navigation a:visited{
-    color: crimson;
+.Navigation a:visited{
+    color: snow;
+}
+    .Navigation li {
+        display: table-cell;
+        text-align: left;
+        vertical-align: middle;
+        float: inherit;
+        width: 30%;
+    }
+
+.MainContent {
+    padding: 0px 10px 10px 10px;
+    background-color: mintcream;
+    color: dimgrey;
+    text-align: center;
+    vertical-align: baseline;
+    display:grid; 
 }
