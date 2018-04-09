@@ -45,7 +45,7 @@ body {
     padding: 0px 10px 10px 10px;
     background-color: mintcream;
     color: dimgrey;
-    text-align: left;
+    text-align: justify;
     vertical-align:text-bottom;
     display:grid;
 }
@@ -53,7 +53,7 @@ body {
     padding: 0px 10px 10px 10px;
     background-color: mintcream;
     color: dimgrey;
-    text-align: left;
+    text-align: justify;
     vertical-align:text-bottom;
     display:grid;   
 }
@@ -62,7 +62,7 @@ body {
     padding: 0px 10px 10px 10px;
     background-color: mintcream;
     color: dimgrey;
-    text-align: left;
+    text-align: justify;
     vertical-align:text-bottom;
     display:grid;   
 }
@@ -71,7 +71,7 @@ body {
     padding: 0px 10px 10px 10px;
     background-color: mintcream;
     color: dimgrey;
-    text-align: left;
+    text-align: justify;
     vertical-align:text-bottom;
     display:grid;   
 }
@@ -80,9 +80,17 @@ body {
     padding: 0px 10px 10px 10px;
     background-color: mintcream;
     color: dimgrey;
-    text-align: left;
+    text-align:justify;
     vertical-align:text-bottom;
     display:grid;   
 }
+
+.Hobbies {
+    padding: 0px 10px 10px 10px;
+    background-color: mintcream;
+    color: dimgrey;
+    text-align: center;
+    vertical-align:text-bottom;
+    display:inline-grid; 
 
 
