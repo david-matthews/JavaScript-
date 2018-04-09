@@ -6,7 +6,7 @@ html {
 
 body {
     
-    width: 100%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     display: table;
@@ -32,6 +32,57 @@ body {
         width: 30%;
     }
 
-.MainContent {
-    padding: 0px 10px 10px 10px
+.CV {
+    padding: 0px 10px 10px 10px;
+    background-color: mintcream;
+    color: dimgrey;
+    text-align: center;
+    vertical-align:text-bottom;
+    display:inline-grid; 
+   
 }
+.Testing{
+    padding: 0px 10px 10px 10px;
+    background-color: mintcream;
+    color: dimgrey;
+    text-align: left;
+    vertical-align:text-bottom;
+    display:grid;
+}
+.DevOps{
+    padding: 0px 10px 10px 10px;
+    background-color: mintcream;
+    color: dimgrey;
+    text-align: left;
+    vertical-align:text-bottom;
+    display:grid;   
+}
+
+.Databases{
+    padding: 0px 10px 10px 10px;
+    background-color: mintcream;
+    color: dimgrey;
+    text-align: left;
+    vertical-align:text-bottom;
+    display:grid;   
+}
+
+.AWS{
+    padding: 0px 10px 10px 10px;
+    background-color: mintcream;
+    color: dimgrey;
+    text-align: left;
+    vertical-align:text-bottom;
+    display:grid;   
+}
+
+.Programming{
+    padding: 0px 10px 10px 10px;
+    background-color: mintcream;
+    color: dimgrey;
+    text-align: left;
+    vertical-align:text-bottom;
+    display:grid;   
+}
+
+
