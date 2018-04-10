@@ -4,15 +4,39 @@
     <meta charset = "ISO-8859-1">
     <link href="../CSS/Contact.css" rel="stylesheet" type="text/css"/>
 <title> Contact Details </title>
+    
+    <script>
+        function GIF() {
+            var elem =document.createElement("img");
+            elem.setAttribute("src","https://media.giphy.com/media/tcu9i8MMAc800/giphy.gif");
+            document.getElementById("GIF").appendChild(elem);
+        }
+    </script>
+    
 </head>
 <body>
     <div class="Navigation">
         <ul> 
             <li><a id="Home" href ="../HTML/Home-Page.html"><h2>Home</h2> </a></li>
-            <li><a id="About" href ="../HTML/About.html"> <h2>About Me</h2></a></li>
+            <li><a id="CV" href ="../HTML/About.html"> <h2>CV</h2></a></li>
             <li><a id="Projects" href ="../HTML/Project.html"> <h2>Projects</h2></a></li>
             <li> <a id="Contant Details" href ="../HTML/Contact.html"> <h2>Contact Details</h2></a></li>
         </ul>
+    </div>
+    
+    <div class="Contact">
+        <p> Full Name: David Andrew Matthews</p>
+        <p>Address: Ty Wrth Y Coed, Penyfai</p>
+        <p>Town: Bridgend</p>
+        <p>Postcode: CF31 4LL</p>
+        <p>Phone Number: 07429092836</p>
+        <p>Email Address: David.Matthews@QA.com</p>
+    
+    </div>
+    
+    <div Id="GIF">
+        <button type="button" align="left" onclick="GIF()">Light Comic Relief</button>
+        <p id="GIF"></p>
     </div>
 
 </body>
