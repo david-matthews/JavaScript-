@@ -38,5 +38,17 @@ body {
     color: dimgrey;
     text-align: center;
     vertical-align:text-bottom;
-    display:inline-grid; 
+    display:grid; 
+}
+.GIF {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
 }

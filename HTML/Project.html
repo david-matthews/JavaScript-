@@ -4,6 +4,17 @@
     <meta charset = "ISO-8859-1">
     <link href="../CSS/Project.css" rel="stylesheet" type="text/css"/>
 <title> Projects </title>
+    
+    <script>
+    function GitHub() {
+        window.location='https://github.com/david-matthews';
+    }
+    </script>
+    <script>
+    function BitBucket() {
+        window.location='https://bitbucket.org/dashboard/overview';
+    }
+    </script>
 </head>
 <body>
     
@@ -15,6 +26,22 @@
             <li> <a id="Contant Details" href ="../HTML/Contact.html"> <h2>Contact Details</h2></a></li>
         </ul>
     </div>
+    
+    <div class="Description">
+        <h2>Projects</h2>
+        <p>During my time with QA I have worked on various projects. Some of the projects include creating a CI Pipeline from start to finish to host a Web Server, using various tools such as Docker, Jenkins, Ansible, AWS, Sonarqube and Maven.
+        </p> <br>
+        <p>Another Project I have undertaken was to create a website using HTML, CSS and JavaScript and then test it using various testing techniques such as manual testing, using static testing such as Sonarqube, and white box testing like Selenium WebDriver. 
+        </p>
+        <p>See Below for a link to my Git and BitBucket Repositories.</p>
+    </div>
+    <div class="Git">
+   <button onclick="GitHub();" class="Git">GitHub</button>
+    
+    </div>
+    
+    <div class="BitBucket">
+    <button onclick="Bitbucket();" class="BitBucket">BitBucket</button></div>
 
 </body>
 </html> 

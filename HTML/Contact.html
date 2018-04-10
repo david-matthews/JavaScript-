@@ -6,11 +6,17 @@
 <title> Contact Details </title>
     
     <script>
+        var i = 0;
         function GIF() {
+            if (i!=0) { }
+            
+            else {
             var elem =document.createElement("img");
             elem.setAttribute("src","https://media.giphy.com/media/tcu9i8MMAc800/giphy.gif");
             document.getElementById("GIF").appendChild(elem);
+                i++;
         }
+    }
     </script>
     
 </head>
@@ -34,8 +40,8 @@
     
     </div>
     
-    <div Id="GIF">
-        <button type="button" align="left" onclick="GIF()">Light Comic Relief</button>
+    <div class="GIF">
+        <button type="button" align="left" onclick="GIF()" class="GIF">Light Comic Relief</button>
         <p id="GIF"></p>
     </div>
 
