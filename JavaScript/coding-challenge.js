@@ -12,3 +12,4 @@ function sum(a,b,c) {
     
     document.getElementById("sum").append(a+b+c);
 }
+
